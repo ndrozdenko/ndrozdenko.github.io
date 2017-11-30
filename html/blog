@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<title>Blog</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="CSS/W3Art_StyleSheet.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+<style>
+body {font-family: "Raleway", Arial, sans-serif}
+.w3-row img {margin-bottom: -8px}
+</style>
+<body>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+  <!-- Header -->
+  <header class="w3-container w3-xlarge w3-padding-24">
+    <a href="/index.html" class="w3-left w3-button w3-white w3-text-deep-purple"><i>NINA DROZDENKO</i></a>
+    <a href="/html/about.html" class="w3-right w3-button w3-white w3-text-deep-purple">About</a>
+    <a href="/html/portfolio.html" class="w3-right w3-button w3-white w3-text-deep-purple">Portfolio</a>
+    <a href="#contact" class="w3-right w3-button w3-white w3-text-deep-purple">Contact</a>
+    <a href="#blog" class="w3-right w3-button w3-white w3-text-deep-purple">Blog;</a>
+
+
+  <style>
+
+  </style>
+  </header>
+
+  <!-- Photo Grid -->
+  <div class="w3-row">
+    <div class="w3-half">
+      <img src="/pix/amoebabanner.png" style="width:100%">
+      <img src="/pix/instagramvive.jpg" style="width:100%">
+
+
+    </div>
+
+    <div class="w3-half">
+      <img src="/pix/squidkid.png" style="width:102%">
+      <img src="/w3images/streetart4.jpg" style="width:100%">
+    </div>
+  </div>
+
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer / About Section -->
+<footer class="w3-light-grey w3-padding-64 w3-center" id="about">
+  <h2>About</h2>
+  <img src="/w3images/boy.jpg" class="w3-image w3-padding-32" width="300" height="300">
+  <form style="margin:auto;width:60%" action="/action_page.php" target="_blank">
+    <p>I am currently pursuing a Bachelor of Arts in Digital Media and Design with a minor in Women’s, Gender and Sexuality Studies at the University of Connecticut Stamford Campus. I have a passion for art and design on digital and traditional platforms, and organization, attention to detail and human-centered design are some of my most important values. Fields I am experienced in include event planning, project management, digital marketing, public speaking, and fashion design. I am currently located in Stamford, Connecticut. Let’s get to know each other!</p>
+    <p class="w3-large w3-text-pink">Interested in working together?</p>
+    <div class="w3-section">
+      <label><b>Name</b></label>
+      <input class="w3-input w3-border" type="text" required name="Name">
+    </div>
+    <div class="w3-section">
+      <label><b>Email</b></label>
+      <input class="w3-input w3-border" type="text" required name="Email">
+    </div>
+    <div class="w3-section">
+      <label><b>Message</b></label>
+      <input class="w3-input w3-border" required name="Message">
+    </div>
+    <button type="submit" class="w3-button w3-block w3-dark-grey">Send</button>
+  </form>
+  <br>
+
+</footer>
+
+</body>
+</html>
