@@ -1,156 +1,72 @@
-<!DOCTYPE html>
-<html>
-<title>Nina Drozdenko</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
-<link rel="stylesheet" href="../css/stylesheet.css">
-<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Poppins" rel="stylesheet">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>NINA DROZDENKO</title>
+    <link rel="stylesheet" href="/css/stylesheet.css">
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">-->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300i|Raleway" rel="stylesheet">
+    <link href="../favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  </head>
 <style>
-h1,h2,h3,h4,h5 {
-  font-family: "Josefin Sans";
-  }
-body {
-  font-family: "Poppins";
-  font-size:16px;
-}
-.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
-.w3-half img:hover{opacity:1}
+    body {
+      font-family: "Raleway", sans-serif
+      }
+    h1 {
+      font-family: "Josefin Sans", sans-serif;
+      color: white;
+      }
+    h2 {
+      font-family: "Josefin Sans", sans-serif;
+      color: white;
+      }
+    h3 {
+      font-family: "Josefin Sans", sans-serif;
+      color: white;
+      }
 </style>
-<body>
+    <body>
+      <!-- Navbar -->
+          <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FF0053;">
+            <a class="navbar-brand" href="index.html"><h2>NINA DROZDENKO</h2></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-<!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-yellow w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:275px;font-weight:bold;" id="mySidebar"><br>
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
-  <div class="w3-container">
-  <!--  <h3 class="w3-padding-64"><b>Company<br>Name</b></h3> -->
-  </div>
-  <div class="w3-bar-block">
-    <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
-    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Portfolio</a>
-    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About</a>
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
-  </div>
-</nav>
+      <!-- Nav Links-->
+              <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto navbar-right">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"><h3>Blog</h3><span class="sr-only">(current)</span></a>
+                </li>
 
-<!-- Top menu on small screens -->
-<header class="w3-container w3-top w3-hide-large w3-yellow w3-xlarge w3-padding">
-  <a href="javascript:void(0)" class="w3-button w3-yellow w3-margin-right" onclick="w3_open()">☰</a>
-  <span>Company Name</span>
-</header>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><h3>About</h3></a>
+                </li>
 
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><h3>Portfolio</h3>
+                  </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                </li>
+              </ul>
+            </div>
 
-<!-- !PAGE CONTENT! -->
-<div class="w3-main" id="home" style="margin-left:320px;margin-right:40px">
-
-  <!-- Header -->
-  <div class="w3-container" style="margin-top:50px" id="portfolio">
-    <h1 class="w3-xxxlarge">Nina Drozdenko</h1>
-    <h3 class="w3-text-yellow">Digital Designer & Filmmaker</h3>
-    <hr style="width:50px;border:5px solid" class="w3-round w3-text-yellow">
-  </div>
-
-  <!-- Photo grid (modal) -->
-  <div class="w3-row-padding">
-    <div class="w3-half">
-        <a href="https://player.vimeo.com/video/237600161?" target="blank">
-          <img src="../img/scs.png" style="width:100%">
-        </a>
-        <a href="https://www.youtube.com/embed/JJWpH4NCh9o?rel=0" target="blank">
-          <img src="../img/nattoppet2.png" style="width:100%">
-        </a>
-      <img src="../img/squidkid.png" style="width:100%" onclick="onClick(this)" alt="Splatoon Fanart Commission (Digital Illustration)">
-    </div>
-
-    <div class="w3-half">
-      <img src="../img/Oompa_Poster.png" style="width:100%" onclick="onClick(this)" alt="OOMPA Event Poster (Graphic Design)">
-      <a href="https://player.vimeo.com/video/246622510?" target="blank">
-        <img src="../img/top5.png" style="width:100%">
-      </a>
-      <img src="../img/instagramvive.jpg" style="width:100%" onclick="onClick(this)" alt="Scandinavian design">
-    </div>
-  </div>
-
-  <!-- Modal for full size images on click-->
-  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
-    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
-    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-      <img id="img01" class="w3-image">
-      <p id="caption"></p>
-    </div>
-  </div>
-
-  <!-- About -->
-  <div class="w3-container" id="about" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-yellow"><b>About</b></h1>
-      <hr style="width:50px;border:5px solid" class="w3-round w3-text-yellow">
-        <div class="w3-threequarter">
-          <p>As a designer with multidisciplinary experience, I strive to bring a
-            holistic and socially responsible perspective to digital media, marketing,
-            and the arts. I believe in user-centered design, ethical marketing and
-            using the digital arts to disseminate vital information to those who need it most.
-          </p>
-          <a href="../files/fall2017_resume.pdf" download="Nina Drozdenko's Resume.pdf"
-          class="w3-button w3-block w3-padding-large w3-yellow w3-margin-bottom w3-round">Download Resume</a>
-
-        </div>
-        <div class="w3-quarter" style="padding-left:20px">
-          <img src="../img/seiportrait.jpg" style="width:200px" class="w3-circle w3-center">
-        </div>
-  </div>
+        </nav>
 
 
 
-  <!-- Contact -->
-  <div class="w3-container" id="Contact" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-yellow"><b>Contact</b></h1>
-      <hr style="width:50px;border:5px solid" class="w3-round w3-text-yellow">
-
-    <!-- Icon Grid -->
-      <div class="w3-center w3-padding-24">
-        <a href="mailto:nina.drozdenko@gmail.com?subject=Portfolio Contact">
-          <img src="../img/icon/mailicon.png" style="width:10%">
-        </a>
-        <a href="http://linkedin.com/in/ndrozdenko" target="blank">
-          <img src="../img/icon/linkedinicon.png" style="width:10%">
-        </a>
-        <a href="https://vimeo.com/ndrozdenko" target="blank">
-          <img src="../img/icon/vimeoicon.png" style="width:10%">
-        </a>
-        <a href="https://www.youtube.com/channel/UCNIQghmVQtlyxms_PVilIXQ" target="blank">
-          <img src="../img/icon/youtubeicon.png" style="width:10%">
-        </a>
-      </div>
-    </div>
-
-<!-- End page content -->
-</div>
-
-<!-- W3.CSS Container -->
-<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right"><a href="#home">Return to Top</a></p></div>
-
-<script>
-// Script to open and close sidebar
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
-}
-
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-    document.getElementById("myOverlay").style.display = "none";
-}
-
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
-</script>
-
-</body>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    </body>
 </html>
