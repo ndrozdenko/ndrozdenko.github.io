@@ -20,8 +20,8 @@
 }
 
 .n-gradient {
-  background-color: #1fc8db;
-  background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  background-color: #ffa500;
+  background-image: linear-gradient(141deg, #9fb8ad 0%, #ffa500 51%, #ffafaf 75%);
 }
 
   body
