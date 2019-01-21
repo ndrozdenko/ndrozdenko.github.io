@@ -19,6 +19,11 @@
   background-color:#FFA500;
 }
 
+.n-gradient {
+  background-color: #1fc8db;
+  background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+
   body
     {font-family: "Raleway", sans-serif}
   h1
